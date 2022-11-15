@@ -192,8 +192,5 @@ console.log('Total Months: ' + total_months);
 console.log('Total: ' + '$' + sum);
 console.log('Average Change: ' + '$' + average_change.toFixed(2));
 console.log('Greatest Increase in Profits: ' + biggest_increase_month + ' ($' + biggest_increase + ')');
-console.log('Greatest Decrease in Profits: ' + biggest_decrease_month + ' ($' + biggest_increase + ')');
-
-
-
+console.log('Greatest Decrease in Profits: ' + biggest_decrease_month + ' ($' + biggest_decrease + ')');
 console.log(Math.round (23.333, 1));
