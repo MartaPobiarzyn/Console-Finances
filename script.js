@@ -184,13 +184,15 @@ console.log(finances[biggest_decrease_index+1][0]); //Sep-2013
 
 var biggest_decrease_month = (finances[biggest_decrease_index + 1][0]);
 
+// console.log(Math.round (23.333, 1));
 
 //print final output
-
-
+console.log("     ");
+console.log('-------------------');
+console.log('Financial Analysis');
+console.log('-------------------');
 console.log('Total Months: ' + total_months);
 console.log('Total: ' + '$' + sum);
 console.log('Average Change: ' + '$' + average_change.toFixed(2));
 console.log('Greatest Increase in Profits: ' + biggest_increase_month + ' ($' + biggest_increase + ')');
 console.log('Greatest Decrease in Profits: ' + biggest_decrease_month + ' ($' + biggest_decrease + ')');
-console.log(Math.round (23.333, 1));
